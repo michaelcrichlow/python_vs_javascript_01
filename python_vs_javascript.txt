@@ -1,0 +1,103 @@
+----------------------------------------------------
+----- COMPARISON BETWEEN PYTHON AND JAVASCRIPT -----
+----- 06.23.2022 -----------------------------------
+----------------------------------------------------
+
+
+----- PYTHON ----------------------------------------------------------------------------
+
+print("Hello World!")
+
+# Python comments look like this.
+
+# Let's look at variables
+# Just choose a variable name and use it
+a = "apples"
+b = 5
+c = 5.75
+d = True
+# e = null            # NameError: name 'null' is not defined
+# f = undefined       # NameError: name 'undefined' is not defined
+
+# Python works a bit differntly here. The closest thing we have is 'None'
+# and it's another beast entirely. So, the closest analog is:
+
+e = None
+f = None
+
+# Let's look at data types
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+
+# How about redefining names of variables?
+name = "Mike"
+name = "John"
+
+# Redefining of a variable is perfectly fine. Python just uses the latest
+# definition of the variable.
+
+print(name)
+
+----- OUTPUT --------------------
+|				|
+|  Hello World!			|
+|  <class 'str'>		|
+|  <class 'int'>		|
+|  <class 'float'>		|
+|  <class 'bool'>		|
+|  <class 'NoneType'>		|
+|  <class 'NoneType'>		|
+|  John				|
+---------------------------------
+
+----- JAVASCRIPT ------------------------------------------------------------------------
+
+console.log("Hello World!");
+
+// JavaScript comments look like this.
+
+// Let's look at variables
+// keyword 'let' necessary
+let a = "apples";
+let b = 5;
+let c = 5.75;
+let d = true;
+let e = null;
+let f = undefined;
+
+// 'null' and 'undefined' are keywords that JavaScript uses that are not in Python.
+
+// Let's look at data types
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+console.log(typeof f);
+
+// How about redefining names of variables?
+//let name = "Mike";
+//let name = "John";      // SyntaxError: Identifier 'name' has already been declared
+
+// Javascript won't let you assign a value to a vaiable if the variable already exists.
+
+let name = "John";
+
+console.log(name);
+
+----- OUTPUT --------------------
+|				|
+|  Hello World!			|
+|  string			|
+|  number			|
+|  number			|
+|  boolean			|
+|  object			|
+|  undefined			|
+|  John				|
+---------------------------------
+
