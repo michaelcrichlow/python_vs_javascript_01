@@ -43,15 +43,15 @@ name = "John"
 print(name)
 
 ----- OUTPUT --------------------
-|				                        |
-|  Hello World!			            |
-|  <class 'str'>		            |
-|  <class 'int'>		            |
-|  <class 'float'>		          |
-|  <class 'bool'>		            |
-|  <class 'NoneType'>		        |
-|  <class 'NoneType'>		        |
-|  John				                  |
+|                               |
+|  Hello World!                 |
+|  <class 'str'>                |
+|  <class 'int'>                |
+|  <class 'float'>              |
+|  <class 'bool'>               |
+|  <class 'NoneType'>           |
+|  <class 'NoneType'>           |
+|  John                         |
 ---------------------------------
 
 ----- JAVASCRIPT ------------------------------------------------------------------------
@@ -90,14 +90,14 @@ let name = "John";
 console.log(name);
 
 ----- OUTPUT --------------------
-|				                        |
-|  Hello World!			            |
-|  string			                  |
-|  number			                  |
-|  number			                  |
-|  boolean			                |
-|  object			                  |
-|  undefined			              |
-|  John				                  |
+|                               |
+|  Hello World!                 |
+|  string                       |
+|  number                       |
+|  number                       |
+|  boolean                      |
+|  object                       |
+|  undefined                    |
+|  John                         |
 ---------------------------------
 
